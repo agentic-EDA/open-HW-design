@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('CheckToVar.py', sim_objects=['CheckToVar'])
+Source('check_to_var.cc')
+DebugFlag("CheckToVar")

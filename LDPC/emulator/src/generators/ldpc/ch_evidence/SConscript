@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('ChEvidence.py', sim_objects=['ChEvidence'])
+Source('ch_evidence.cc')
+DebugFlag("ChEvidence")

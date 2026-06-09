@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('FftTestGenerator.py', sim_objects=['FftTestGenerator'])
+Source('fft_test_generator.cc')
+DebugFlag("FftTestGenerator")

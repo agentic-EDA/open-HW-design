@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('BranchLogicTestGenerator.py', sim_objects=['BranchLogicTestGenerator'])
+Source('branch_logic_test_generator.cc')
+DebugFlag('BranchLogicTestGenerator')

@@ -1,0 +1,6 @@
+Import('*')
+
+SimObject('HazardDetectionTestGenerator.py', sim_objects=['HazardDetectionTestGenerator'])
+Source('hazard_detection_test_generator.cc')
+
+DebugFlag('HazardDetectionTestGenerator')

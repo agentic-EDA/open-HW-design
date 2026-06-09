@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('ForwardingUnit.py', sim_objects=['ForwardingUnit'])
+Source('forwarding_unit.cc')
+DebugFlag("ForwardingUnit")

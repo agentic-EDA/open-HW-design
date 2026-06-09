@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('Belief.py', sim_objects=['Belief'])
+Source('belief.cc')
+DebugFlag("Belief")

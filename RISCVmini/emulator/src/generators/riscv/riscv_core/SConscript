@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('RiscvCore.py', sim_objects=['RiscvCore'])
+Source('riscv_core.cc')
+DebugFlag('RiscvCore')

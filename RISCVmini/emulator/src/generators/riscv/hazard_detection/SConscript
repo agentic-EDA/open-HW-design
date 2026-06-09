@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('HazardDetection.py', sim_objects=['HazardDetection'])
+Source('hazard_detection.cc')
+DebugFlag("HazardDetection")

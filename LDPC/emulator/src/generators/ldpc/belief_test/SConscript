@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('BeliefTestGenerator.py', sim_objects=['BeliefTestGenerator'])
+Source('belief_test_generator.cc')
+DebugFlag("BeliefTestGenerator")

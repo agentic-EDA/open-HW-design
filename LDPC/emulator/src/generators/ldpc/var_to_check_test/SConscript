@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('VarToCheckTestGenerator.py', sim_objects=['VarToCheckTestGenerator'])
+Source('var_to_check_test_generator.cc')
+DebugFlag("VarToCheckTestGenerator")

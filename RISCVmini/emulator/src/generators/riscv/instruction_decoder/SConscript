@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('InstructionDecoder.py', sim_objects=['InstructionDecoder'])
+Source('instruction_decoder.cc')
+DebugFlag("InstructionDecoder")

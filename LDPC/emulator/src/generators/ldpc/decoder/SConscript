@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('Decoder.py', sim_objects=['Decoder'])
+Source('decoder.cc')
+DebugFlag("LdpcDecoder")

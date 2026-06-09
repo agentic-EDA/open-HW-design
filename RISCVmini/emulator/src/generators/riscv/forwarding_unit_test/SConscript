@@ -1,0 +1,7 @@
+Import('*')
+
+SimObject('ForwardingUnitTestGenerator.py', sim_objects=['ForwardingUnitTestGenerator'])
+
+Source('forwarding_unit_test_generator.cc')
+
+DebugFlag('ForwardingUnitTestGenerator')

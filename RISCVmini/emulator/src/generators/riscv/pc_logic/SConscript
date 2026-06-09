@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('PcLogic.py', sim_objects=['PcLogic'])
+Source('pc_logic.cc')
+DebugFlag("PcLogic")

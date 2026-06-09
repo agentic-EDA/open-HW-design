@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('RiscvCoreTestGenerator.py', sim_objects=['RiscvCoreTestGenerator'])
+Source('riscv_core_test_generator.cc')
+DebugFlag('RiscvCoreTestGenerator')
